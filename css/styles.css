@@ -297,8 +297,12 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: var(--color-cloud);
 }
 
+.team-soc-icon {
+  fill: currentColor;
+}
 .team-soc-link:hover,
 :focus {
   background-color: var(--hover-color);
