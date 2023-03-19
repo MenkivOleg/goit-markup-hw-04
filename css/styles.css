@@ -42,7 +42,7 @@ img {
   list-style: none;
 }
 
-/* Components*/
+/*========================Components========================*/
 
 .visually-hidden {
   position: absolute;
@@ -146,7 +146,7 @@ img {
   line-height: 1.5;
 }
 
-/* Header */
+/*========================Header========================*/
 
 .header {
   border-bottom: 1px solid var(--color-cornflower);
@@ -160,7 +160,7 @@ img {
   color: var(--title-color);
 }
 
-/* Menu */
+/*========================Menu========================*/
 .navigation {
   display: flex;
   align-items: center;
@@ -201,13 +201,21 @@ img {
   color: var(--hover-color);
 }
 
-/* Hero */
+/*========================Hero========================*/
 .hero {
   padding-top: 188px;
   padding-bottom: 188px;
   text-align: center;
 
   background-color: var(--title-color);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-title {
@@ -235,13 +243,13 @@ img {
   background-color: var(--hover-color);
 }
 
-/* Features */
+/*========================Features========================*/
 
 .features-list-item {
   flex-basis: calc((100%-72px) / 4);
 }
 
-/* Work */
+/*========================Work========================*/
 
 .section.work {
   padding-top: 0;
@@ -251,7 +259,7 @@ img {
   flex-basis: calc((100%-48px) / 3);
 }
 
-/* Team */
+/*========================Team========================*/
 
 .section.team {
   background-color: var(--color-cloud);
@@ -270,7 +278,7 @@ img {
   text-align: center;
 }
 
-/* Footer */
+/*========================Footer========================*/
 
 .footer {
   padding-top: 100px;
@@ -290,7 +298,7 @@ img {
   line-height: 1.5;
 }
 
-/* portfolio styles */
+/*========================portfolio styles======================== */
 
 .section.portfolio {
   padding-top: 96px;
